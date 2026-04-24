@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+
+# Build folders
+dist/
+build/
+
+# Java
+target/
+
+# Env files
+.env
+
+# Uploads (important for your project)
+python-face-service/uploads/
+python-face-service/logs/
+
+# Maven
+target/
+.m2/
+
+# IDE
+.idea/
+*.iml
+.vscode/

@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+deepface
+opencv-python
+numpy
+pillow
+tensorflow
+tf-keras
+mediapipe
+
