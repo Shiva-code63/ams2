@@ -1,7 +1,6 @@
 services:
   - type: web
     name: ams2-backend
-    env: java
     plan: free
     rootDir: backend-java
     buildCommand: mvn clean package -DskipTests
