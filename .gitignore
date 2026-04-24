@@ -1,43 +1,59 @@
+# ======================
 # Python
+# ======================
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+*.sqlite3
 
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
+env/
 
+# ======================
 # Logs
+# ======================
 *.log
+logs/
 
-# OS files
+# ======================
+# OS Files
+# ======================
 .DS_Store
 Thumbs.db
 
-# Node
+# ======================
+# Node (if used)
+# ======================
 node_modules/
-dist/
-
-# Build folders
 dist/
 build/
 
-# Java
+# ======================
+# Java / Spring Boot (Maven)
+# ======================
 target/
 
-# Env files
-.env
-
-# Uploads (important for your project)
-python-face-service/uploads/
-python-face-service/logs/
-
-# Maven
-target/
+# Maven local repo (VERY IMPORTANT)
 .m2/
 
-# IDE
+# ======================
+# IDEs
+# ======================
 .idea/
 *.iml
 .vscode/
+
+# ======================
+# Env / Secrets
+# ======================
+.env
+*.env
+
+# ======================
+# Project-specific
+# ======================
+python-face-service/uploads/
+python-face-service/logs/
